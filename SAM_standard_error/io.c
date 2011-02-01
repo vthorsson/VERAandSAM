@@ -17,7 +17,7 @@ int Nheader;
 void read_data( FILE *fpin ){
 
 #define MAXGENES 500000  /* maximum no. genes for temporary storage */
-#define MAXREPS 100 /* maxiumum no. replicates for temporary storage */
+#define MAXREPS 400 /* maxiumum no. replicates for temporary storage */
 #define Mkeep 1 /* keep only genes with replicates Mkeep or greater */
 #define MAXLENGTH 30 /* maximum length of gene name strings */
 
